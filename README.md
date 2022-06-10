@@ -34,6 +34,6 @@ git pull origin main
 ```
 
 
-### Resolvendo conflitos com Eclipse
+### Resolvendo conflitos
 
 https://metring.com.br/guia-resolvendo-conflitos-no-git
