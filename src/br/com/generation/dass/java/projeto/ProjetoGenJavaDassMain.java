@@ -1,4 +1,4 @@
-package trabalho.generation.modulo1;
+package br.com.generation.dass.java.projeto;
 
 import java.util.Scanner;
 
