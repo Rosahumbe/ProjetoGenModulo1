@@ -1,4 +1,4 @@
-package trabalho.generatio.modulo1;
+package trabalho.generation.modulo1;
 
 public class ProjetoGenJavaDassMain {
 
