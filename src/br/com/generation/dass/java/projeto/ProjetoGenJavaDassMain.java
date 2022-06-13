@@ -5,6 +5,7 @@ import br.com.generation.dass.java.perguntas.PerguntasAnsiedade;
 import br.com.generation.dass.java.perguntas.PerguntasDepressao;
 
 import br.com.generation.dass.java.perguntas.PerguntasEstresse;
+import br.com.generation.dass.java.respostas.Resultados;
 
 public class ProjetoGenJavaDassMain {
 
@@ -51,8 +52,14 @@ public class ProjetoGenJavaDassMain {
 	somaEstresse += perguntasEstresse.questao20();
 	somaEstresse += perguntasEstresse.questao21();
 	
+	Resultados resultAnsiedade = new Resultados();
+	
+	resultAnsiedade.resultadoAnsiedade(somaAnsiedade);
 	
 	
+	Resultados resultadoDepressao = new Resultados();
+	
+
 	
 	System.out.println(somaAnsiedade+ somaDepressao + somaEstresse);
 	

@@ -2,11 +2,11 @@ package br.com.generation.dass.java.respostas;
 
 public class Resultados {
 
-	int somaEstresse;
-	int somaAnsiedade;
-	int somaDepressao;
+	
+	
+	
 
-	void resultadoEstresse() {
+	void resultadoEstresse(int somaEstresse) {
 		if (somaEstresse >= 1 && somaEstresse <= 9) {
 			System.out.println("Normal\r\n"
 					+ "	Seu nível de estresse está baixo. Face aos fatores estressantes do cotidiano, você se adapta bem.");
@@ -19,7 +19,7 @@ public class Resultados {
 		}
 	}
 
-	void resultadoAnsiedade() {
+	public void resultadoAnsiedade(int somaAnsiedade) {
 		if (somaAnsiedade >= 1 && somaAnsiedade <= 7) {
 			System.out.println("Normal\r\n"
 					+ "Sua pontuação sobre a dimensão de ansiedade demonstra que você não está ansioso(a).");
@@ -35,7 +35,7 @@ public class Resultados {
 		}
 	}
 
-	void resultadoDepressao() {
+	void resultadoDepressao(int somaDepressao) {
 		if (somaDepressao >= 1 && somaDepressao <= 7) {
 			System.out.println("Nível Normal\r\n"
 					+ "	*Sua pontuação sobre a dimensão de depressão demonstra que você não está depressivo(a).");
