@@ -6,7 +6,7 @@ public class Resultados {
 	
 	
 
-	void resultadoEstresse(int somaEstresse) {
+	public void resultadoEstresse(int somaEstresse) {
 		if (somaEstresse >= 1 && somaEstresse <= 9) {
 			System.out.println("Normal\r\n"
 					+ "	Seu nível de estresse está baixo. Face aos fatores estressantes do cotidiano, você se adapta bem.");
@@ -35,7 +35,7 @@ public class Resultados {
 		}
 	}
 
-	void resultadoDepressao(int somaDepressao) {
+	public void resultadoDepressao(int somaDepressao) {
 		if (somaDepressao >= 1 && somaDepressao <= 7) {
 			System.out.println("Nível Normal\r\n"
 					+ "	*Sua pontuação sobre a dimensão de depressão demonstra que você não está depressivo(a).");

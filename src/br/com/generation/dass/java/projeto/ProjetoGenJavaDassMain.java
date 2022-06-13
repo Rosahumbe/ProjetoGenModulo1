@@ -54,18 +54,16 @@ public class ProjetoGenJavaDassMain {
 	
 	Resultados resultAnsiedade = new Resultados();
 	
+	
 	resultAnsiedade.resultadoAnsiedade(somaAnsiedade);
+	Resultados resultEstresse = new Resultados();
+	resultEstresse.resultadoEstresse(somaEstresse);
 	
 	
 	Resultados resultadoDepressao = new Resultados();
-	
+	resultadoDepressao.resultadoDepressao(somaDepressao);
 
 	
-	System.out.println(somaAnsiedade+ somaDepressao + somaEstresse);
-	
-
-		
-
-	}
+		}
 
 }
