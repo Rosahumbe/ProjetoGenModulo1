@@ -5,52 +5,58 @@ import java.util.Scanner;
 public class PerguntasAnsiedade {
 
 	/*
-	 * 2.Senti minha boca seca Não se aplicou de maneira alguma Aplicou-se em algum
-	 * grau, ou por pouco de tempo Aplicou-se em um grau considerável, ou por uma
-	 * boa parte do tempo Aplicou-se muito, ou na maioria do tempo
+	 * Perguntas sobre Ansiedade:
 	 */
 
 	Scanner leia = new Scanner(System.in);
 
+	
+
 	public int questao1() {
-		int opcao = 0;
-		while (opcao < 1 || opcao > 4) {
-			System.out.println("Senti minha boca seca");
-			opcao = leia.nextInt();
-
-			switch (opcao) {
-
-			case 1:
-
-				opcao = 1;
-				break;
-
-			case 2:
-				opcao = 2;
-				break;
-
-			case 3:
-				opcao = 3;
-				break;
-
-			case 4:
-				opcao = 4;
-				break;
-
-			default:
-				System.out.println("Por favor, informe uma opção válida");
-				opcao = 0;
-				continue;
-
-			}
-
-		}
-		return opcao;
-	}
-
-	public int questao2() {
 		PerguntasUtil pergunta1 = new PerguntasUtil();
-		return pergunta1.esqueletoPerguntas("Tive dificuldade em respirar em alguns momentos ", " 1- Não se aplicou de maneira alguma \n "
+		return pergunta1.esqueletoPerguntas("Senti minha boca seca: ", " 1- Não se aplicou de maneira alguma \n "
+				+ "2- Aplicou-se em algum grau, ou por pouco de tempo \n "
+				+ "3- Aplicou-se em um grau considerável, ou por uma boa parte do tempo \n 4- Aplicou-se muito, ou na maioria do tempo");
+		
+	}
+	public int questao2() {
+		PerguntasUtil pergunta2 = new PerguntasUtil();
+		return pergunta2.esqueletoPerguntas("Tive dificuldade em respirar em alguns momentos (ex. respiração ofegante, falta de ar, sem ter feito nenhum esforço físico)", " 1- Não se aplicou de maneira alguma \n "
+				+ "2- Aplicou-se em algum grau, ou por pouco de tempo \n "
+				+ "3- Aplicou-se em um grau considerável, ou por uma boa parte do tempo \n 4- Aplicou-se muito, ou na maioria do tempo");
+		
+	}
+	public int questao3() {
+		PerguntasUtil pergunta3 = new PerguntasUtil();
+		return pergunta3.esqueletoPerguntas("Senti tremores (ex. nas mãos)", " 1- Não se aplicou de maneira alguma \n "
+				+ "2- Aplicou-se em algum grau, ou por pouco de tempo \n "
+				+ "3- Aplicou-se em um grau considerável, ou por uma boa parte do tempo \n 4- Aplicou-se muito, ou na maioria do tempo");
+		
+	}
+	public int questao4() {
+		PerguntasUtil pergunta4 = new PerguntasUtil();
+		return pergunta4.esqueletoPerguntas("Preocupei-me com situações em que eu pudesse entrar em pânico e parecesse ridículo(a)", " 1- Não se aplicou de maneira alguma \n "
+				+ "2- Aplicou-se em algum grau, ou por pouco de tempo \n "
+				+ "3- Aplicou-se em um grau considerável, ou por uma boa parte do tempo \n 4- Aplicou-se muito, ou na maioria do tempo");
+		
+	}
+	public int questao5() {
+		PerguntasUtil pergunta5 = new PerguntasUtil();
+		return pergunta5.esqueletoPerguntas("Senti que ia entrar em pânico", " 1- Não se aplicou de maneira alguma \n "
+				+ "2- Aplicou-se em algum grau, ou por pouco de tempo \n "
+				+ "3- Aplicou-se em um grau considerável, ou por uma boa parte do tempo \n 4- Aplicou-se muito, ou na maioria do tempo");
+		
+	}
+	public int questao6() {
+		PerguntasUtil pergunta6 = new PerguntasUtil();
+		return pergunta6.esqueletoPerguntas("Sabia que meu coração estava alterado mesmo não tendo feito nenhum esforço físico (ex. aumento da frequência cardíaca, disritmia cardíaca)", " 1- Não se aplicou de maneira alguma \n "
+				+ "2- Aplicou-se em algum grau, ou por pouco de tempo \n "
+				+ "3- Aplicou-se em um grau considerável, ou por uma boa parte do tempo \n 4- Aplicou-se muito, ou na maioria do tempo");
+		
+	}
+	public int questao7() {
+		PerguntasUtil pergunta7 = new PerguntasUtil();
+		return pergunta7.esqueletoPerguntas("Senti medo sem motivo", " 1- Não se aplicou de maneira alguma \n "
 				+ "2- Aplicou-se em algum grau, ou por pouco de tempo \n "
 				+ "3- Aplicou-se em um grau considerável, ou por uma boa parte do tempo \n 4- Aplicou-se muito, ou na maioria do tempo");
 		
