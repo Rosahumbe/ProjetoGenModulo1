@@ -2,6 +2,7 @@ package br.com.generation.dass.java.projeto;
 
 
 import br.com.generation.dass.java.perguntas.PerguntasAnsiedade;
+import br.com.generation.dass.java.perguntas.PerguntasEstresse;
 
 public class ProjetoGenJavaDassMain {
 
@@ -17,8 +18,9 @@ public class ProjetoGenJavaDassMain {
 	telaInicial.saudacao();
 	
 	PerguntasAnsiedade perguntasAnsiedade = new PerguntasAnsiedade();
+	PerguntasEstresse perguntasEstresse = new PerguntasEstresse();
+	PerguntasDepressao perguntasDepressao = new PerguntasDpressao();
 	
-	somaDepressao =
 	somaAnsiedade += perguntasAnsiedade.questao1();
 	somaAnsiedade += perguntasAnsiedade.questao2();
 	somaAnsiedade += perguntasAnsiedade.questao3();
