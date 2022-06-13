@@ -1,7 +1,7 @@
 package br.com.generation.dass.java.projeto;
 
 
-import br.com.pacote.perguntas.PerguntasAnsiedade;
+import br.com.generation.dass.java.perguntas.PerguntasAnsiedade;
 
 public class ProjetoGenJavaDassMain {
 

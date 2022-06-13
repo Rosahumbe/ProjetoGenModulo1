@@ -1,4 +1,4 @@
-package br.com.pacote.perguntas;
+package br.com.generation.dass.java.perguntas;
 
 import java.util.Scanner;
 
