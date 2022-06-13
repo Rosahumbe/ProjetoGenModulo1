@@ -2,7 +2,7 @@ package br.com.generation.dass.java.perguntas;
 
 import java.util.Scanner;
 
-public class PerguntasEstress {
+public class PerguntasEstresse {
 	
 	Scanner leia = new Scanner(System.in);
 	
@@ -50,8 +50,8 @@ public class PerguntasEstress {
 	}
 	
 	public int questao21() {
-		PerguntasUtil pergunta18 = new PerguntasUtil();
-		return pergunta18.esqueletoPerguntas("Senti que estava um pouco emotivo/sensível demais ", " 1- Não se aplicou de maneira alguma \n "
+		PerguntasUtil pergunta21 = new PerguntasUtil();
+		return pergunta21.esqueletoPerguntas("Senti que estava um pouco emotivo/sensível demais ", " 1- Não se aplicou de maneira alguma \n "
 					+ "2- Aplicou-se em algum grau, ou por pouco de tempo \n "
 					+ "3- Aplicou-se em um grau considerável, ou por uma boa parte do tempo \n 4- Aplicou-se muito, ou na maioria do tempo");
 	}
