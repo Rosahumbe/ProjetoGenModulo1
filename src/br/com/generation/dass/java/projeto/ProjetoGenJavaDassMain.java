@@ -1,23 +1,28 @@
 package br.com.generation.dass.java.projeto;
 
-import java.util.Scanner;
+
+import br.com.pacote.perguntas.PerguntasAnsiedade;
 
 public class ProjetoGenJavaDassMain {
 
 	public static void main(String[] args) {
 		
-		Scanner leia = new Scanner(System.in);
-		String nome;
-		int idade;
+		
+	
+		int soma = 0;
 		
 	Interface telaInicial = new Interface();
 	telaInicial.saudacao();
 	
-		//dados do "paciente"
-		System.out.println("Por favor, informe seu nome");
-		nome = leia.nextLine();
-		System.out.println("Olá, "+nome+ "! Por favor me informe sua idade");
-		idade = leia.nextInt();
+	PerguntasAnsiedade perguntasAnsiedade = new PerguntasAnsiedade();
+	
+	soma += perguntasAnsiedade.questao1();
+	
+	soma += perguntasAnsiedade.questao2();
+	
+	System.out.println(soma);
+	
+
 		
 
 	}
