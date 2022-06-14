@@ -25,5 +25,16 @@ public class Interface {
 		System.out.println();
 		System.out.println();
 	}
+	
+	public void indicarClinica() {
+		System.out.println(" <----- Indicação de Clinica Especializada -----> \n");
+		
+		System.out.println("Por motivos de saude, indicamos que  procure uma clinica especializada de sua confiança.\n"
+				+ "Indicamos a Clinica Recontruindo a mente, onde você poderá ser diagnosticado por um especialista.\n"
+				+ "Entre em contato por telefone (27) 99887-1816 e (27) 99842-1351 \nE por email através de (reconstruindoamente@gmail.com)");
+		System.out.println("Ligue para o Centro de Valorização a Vida - 188");
+		System.out.println("Você pode conversar com um voluntário ligando  de todo o território nacional, 24 horas todos os dias de forma gratuita.");
+		System.out.println("Esperamos que fique bem e cuide-se!!!!");
+	}
 
 }
