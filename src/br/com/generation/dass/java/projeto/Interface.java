@@ -19,7 +19,11 @@ public class Interface {
 		System.out.println("|   Para determinar qualquer diagnóstico potencial discuta seu     |");
 		System.out.println("|   resultado com um psicólogo ou um médico psiquiatra.            |");
 		System.out.println("====================================================================");
-		
+
+		System.out.println();
+		System.out.println("  Por favor, leia cada afirmativa e marque a resposta que indique \n  quanto ela se aplicou a você durante a última semana.");
+		System.out.println();
+		System.out.println();
 	}
 
 }

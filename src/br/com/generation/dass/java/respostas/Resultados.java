@@ -1,10 +1,8 @@
 package br.com.generation.dass.java.respostas;
 
 public class Resultados {
-
 	
-	
-	
+	ContabilizaResultados contabilizaResultas = new ContabilizaResultados();
 
 	public void resultadoEstresse(int somaEstresse) {
 		if (somaEstresse >= 1 && somaEstresse <= 9) {
