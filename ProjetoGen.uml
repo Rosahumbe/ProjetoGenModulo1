@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_5wPbYOv0EeyFi-7spREWLw" name="ProjetoGen">
+    <eAnnotations xmi:id="_7GHCIOv0EeyFi-7spREWLw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_7GHCIev0EeyFi-7spREWLw" source="codegen">
+        <details xmi:id="_7GHpMOv0EeyFi-7spREWLw" key="codegenDirectory" value="/ProjetoGen/src"/>
+        <details xmi:id="_98_IoOv0EeyFi-7spREWLw" key="AssociatedSourceCode" value="/ProjetoGen/src/br/com/generation/dass/java/projeto/Usuario.java;232661124/1;/ProjetoGen/src/br/com/generation/dass/java/perguntas/PerguntasDepressao.java;2145027009/1;/ProjetoGen/src/br/com/generation/dass/java/perguntas/PerguntasEstresse.java;4230612386/1;/ProjetoGen/src/br/com/generation/dass/java/perguntas/PerguntasUtil.java;321792145/1;/ProjetoGen/src/br/com/generation/dass/java/projeto/Interface.java;3750818531/1;/ProjetoGen/src/br/com/generation/dass/java/projeto/ProjetoGenJavaDassMain.java;3988357812/1;/ProjetoGen/src/br/com/generation/dass/java/perguntas/PerguntasAnsiedade.java;567112746/1;/ProjetoGen/src/br/com/generation/dass/java/respostas/Resultados.java;1641774344/1;/ProjetoGen/src/br/com/generation/dass/java/respostas/TestaResultados.java;3558061472/1;/ProjetoGen/src/br/com/generation/dass/java/NewClass1.java;3131679457/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_7ZgfQOv0EeyFi-7spREWLw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_7ZhGUOv0EeyFi-7spREWLw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_7ZhGUev0EeyFi-7spREWLw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_7ZhGUuv0EeyFi-7spREWLw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_7ZhtYOv0EeyFi-7spREWLw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_7ZhtYev0EeyFi-7spREWLw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_7ZhtYuv0EeyFi-7spREWLw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_7ZiUcOv0EeyFi-7spREWLw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_7Z1PYOv0EeyFi-7spREWLw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_7Xd34Ov0EeyFi-7spREWLw" name="br">
+      <packagedElement xmi:type="uml:Package" xmi:id="_7Xee8Ov0EeyFi-7spREWLw" name="com">
+        <packagedElement xmi:type="uml:Package" xmi:id="_7Xee8ev0EeyFi-7spREWLw" name="generation">
+          <packagedElement xmi:type="uml:Package" xmi:id="_7XfGAOv0EeyFi-7spREWLw" name="dass">
+            <packagedElement xmi:type="uml:Package" xmi:id="_7XfGAev0EeyFi-7spREWLw" name="java">
+              <packagedElement xmi:type="uml:Package" xmi:id="_7XlzsOv0EeyFi-7spREWLw" name="projeto">
+                <packagedElement xmi:type="uml:Class" xmi:id="_7ZROsOv0EeyFi-7spREWLw" name="Usuario"/>
+                <packagedElement xmi:type="uml:Class" xmi:id="_7aMbwOv0EeyFi-7spREWLw" name="Interface">
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7fnHQOv0EeyFi-7spREWLw" name="saudacao" specification="_7aNp4Ov0EeyFi-7spREWLw">
+                    <language>java</language>
+                    <body>Scanner leia = new Scanner(System.in);
+		String nome;
+		
+		System.out.println(&quot;====================================================================&quot;);
+		System.out.println(&quot;|                                                                  |&quot;);
+		System.out.println(&quot;|   Seja bem-vindo ao Java Dass21                   (ɔ◔‿◔)ɔ ♥      |&quot;);
+		System.out.println(&quot;|                                                                  |&quot;);
+		System.out.println(&quot;|   Este protótipo foi criado com o propósito de auxiliar pessoas  |&quot;);
+		System.out.println(&quot;|   a identificar sintomas relacionados a depressão, ansiedade e   |&quot;);
+		System.out.println(&quot;|   estresse e foi baseado no DASS21 (Depression, Anxiety and      |&quot;);
+		System.out.println(&quot;|   and Stress Scale)                                              |&quot;);
+		System.out.println(&quot;|                                                                  |&quot;);
+		System.out.println(&quot;|                    ::::::::: ATENÇÃO :::::::::                   |&quot;); 
+		System.out.println(&quot;|                                                                  |&quot;);
+		System.out.println(&quot;|   O resultado da avaliação não indica um diagnóstico conclusivo. |&quot;);
+		System.out.println(&quot;|   Para determinar qualquer diagnóstico potencial discuta seu     |&quot;);
+		System.out.println(&quot;|   resultado com um psicólogo ou um médico psiquiatra.            |&quot;);
+		System.out.println(&quot;====================================================================&quot;);
+		System.out.println(&quot; Por favor, me informe seu nome:                                   |&quot;);
+		nome = leia.nextLine();	
+		System.out.println(&quot;====================================================================&quot;);
+		
+		
+	</body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_7aNp4Ov0EeyFi-7spREWLw" name="saudacao" method="_7fnHQOv0EeyFi-7spREWLw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_7aO4AOv0EeyFi-7spREWLw" name="ProjetoGenJavaDassMain">
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7fnuUOv0EeyFi-7spREWLw" name="main" specification="_7aRUQOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7fnuUev0EeyFi-7spREWLw" name="args">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7fnuUuv0EeyFi-7spREWLw" value="*"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>int somaAnsiedade = 0;
+		int somaEstresse = 0;
+		int somaDepressao = 0;
+		
+	Interface telaInicial = new Interface();
+	telaInicial.saudacao();
+	System.out.println();
+	System.out.println(&quot;  Por favor, leia cada afirmativa e marque a resposta que indique \n  quanto ela se aplicou a você durante a última semana.&quot;);
+	System.out.println();
+	System.out.println();
+	
+	PerguntasAnsiedade perguntasAnsiedade = new PerguntasAnsiedade();
+	PerguntasEstresse perguntasEstresse = new PerguntasEstresse();
+	PerguntasDepressao perguntasDepressao = new PerguntasDepressao();
+	
+	somaAnsiedade += perguntasAnsiedade.questao1();
+	somaAnsiedade += perguntasAnsiedade.questao2();
+	somaAnsiedade += perguntasAnsiedade.questao3();
+	somaAnsiedade += perguntasAnsiedade.questao4();
+	somaAnsiedade += perguntasAnsiedade.questao5();
+	somaAnsiedade += perguntasAnsiedade.questao6();
+	somaAnsiedade += perguntasAnsiedade.questao7();
+	
+	somaDepressao += perguntasDepressao.questao8();
+	somaDepressao += perguntasDepressao.questao9();
+	somaDepressao += perguntasDepressao.questao10();
+	somaDepressao += perguntasDepressao.questao11();
+	somaDepressao += perguntasDepressao.questao12();
+	somaDepressao += perguntasDepressao.questao13();
+	somaDepressao += perguntasDepressao.questao14(); 
+	
+	somaEstresse += perguntasEstresse.questao15();
+	somaEstresse += perguntasEstresse.questao16();
+	somaEstresse += perguntasEstresse.questao17();
+	somaEstresse += perguntasEstresse.questao18();
+	somaEstresse += perguntasEstresse.questao19();
+	somaEstresse += perguntasEstresse.questao20();
+	somaEstresse += perguntasEstresse.questao21();
+	
+	Resultados resultAnsiedade = new Resultados();
+	resultAnsiedade.resultadoAnsiedade(somaAnsiedade);
+	Resultados resultEstresse = new Resultados();
+	resultEstresse.resultadoEstresse(somaEstresse);
+	Resultados resultadoDepressao = new Resultados();
+	resultadoDepressao.resultadoDepressao(somaDepressao);
+
+	
+		</body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_7aRUQOv0EeyFi-7spREWLw" name="main" isStatic="true" method="_7fnuUOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7aR7UOv0EeyFi-7spREWLw" name="args">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7aSiYOv0EeyFi-7spREWLw" value="*"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                </packagedElement>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_7X9AEOv0EeyFi-7spREWLw" name="perguntas">
+                <packagedElement xmi:type="uml:Class" xmi:id="_7ZcN0Ov0EeyFi-7spREWLw" name="PerguntasDepressao">
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7fVacOv0EeyFi-7spREWLw" name="questao8" specification="_7ZeqEOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7fWBgOv0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>PerguntasUtil pergunta8 = new PerguntasUtil();
+		return pergunta8.esqueletoPerguntas(&quot;Não consegui vivenciar nenhum sentimento positivo *\r\n&quot; + &quot; &quot;,
+				&quot; 1- Não se aplicou de maneira alguma \n &quot; + &quot;2- Aplicou-se em algum grau, ou por pouco de tempo \n &quot;
+						+ &quot;3- Aplicou-se em um grau considerável, ou por uma boa parte do tempo \n 4- Aplicou-se muito, ou na maioria do tempo&quot;);
+
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7fdWQOv0EeyFi-7spREWLw" name="questao9" specification="_7ZnM8Ov0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7fdWQev0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>PerguntasUtil pergunta9 = new PerguntasUtil();
+		return pergunta9.esqueletoPerguntas(&quot;Achei difícil ter iniciativa para fazer as coisas  *\r\n&quot; + &quot; &quot;,
+				&quot; 1- Não se aplicou de maneira alguma \n &quot; + &quot;2- Aplicou-se em algum grau, ou por pouco de tempo \n &quot;
+						+ &quot;3- Aplicou-se em um grau considerável, ou por uma boa parte do tempo \n 4- Aplicou-se muito, ou na maioria do tempo&quot;);
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7fdWQuv0EeyFi-7spREWLw" name="questao10" specification="_7ZpCIOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7fdWQ-v0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>PerguntasUtil pergunta10 = new PerguntasUtil();
+		return pergunta10.esqueletoPerguntas(&quot;Senti que não tinha nada a desejar \r\n&quot; + &quot; &quot;,
+				&quot; 1- Não se aplicou de maneira alguma \n &quot; + &quot;2- Aplicou-se em algum grau, ou por pouco de tempo \n &quot;
+						+ &quot;3- Aplicou-se em um grau considerável, ou por uma boa parte do tempo \n 4- Aplicou-se muito, ou na maioria do tempo&quot;);
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7fd9UOv0EeyFi-7spREWLw" name="questao11" specification="_7ZqQQOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7fd9Uev0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>PerguntasUtil pergunta11 = new PerguntasUtil();
+		return pergunta11.esqueletoPerguntas(&quot;Senti-me depressivo (a) e sem ânimo \r\n&quot; + &quot;*\r\n&quot; + &quot; &quot;,
+				&quot; 1- Não se aplicou de maneira alguma \n &quot; + &quot;2- Aplicou-se em algum grau, ou por pouco de tempo \n &quot;
+						+ &quot;3- Aplicou-se em um grau considerável, ou por uma boa parte do tempo \n 4- Aplicou-se muito, ou na maioria do tempo&quot;);
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7fekYOv0EeyFi-7spREWLw" name="questao12" specification="_7ZsFcOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7fekYev0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>PerguntasUtil pergunta12 = new PerguntasUtil();
+		return pergunta12.esqueletoPerguntas(&quot;Não consegui me entusiasmar com nada \r\n&quot; + &quot; &quot;,
+				&quot; 1- Não se aplicou de maneira alguma \n &quot; + &quot;2- Aplicou-se em algum grau, ou por pouco de tempo \n &quot;
+						+ &quot;3- Aplicou-se em um grau considerável, ou por uma boa parte do tempo \n 4- Aplicou-se muito, ou na maioria do tempo&quot;);
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7ffLcOv0EeyFi-7spREWLw" name="questao13" specification="_7Zt6oOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7ffLcev0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>PerguntasUtil pergunta13 = new PerguntasUtil();
+		return pergunta13.esqueletoPerguntas(&quot;Senti que não tinha valor como pessoa \r\n&quot; + &quot; &quot;,
+				&quot; 1- Não se aplicou de maneira alguma \n &quot; + &quot;2- Aplicou-se em algum grau, ou por pouco de tempo \n &quot;
+						+ &quot;3- Aplicou-se em um grau considerável, ou por uma boa parte do tempo \n 4- Aplicou-se muito, ou na maioria do tempo&quot;);
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7ffygOv0EeyFi-7spREWLw" name="questao14" specification="_7Zvv0Ov0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7ffygev0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>PerguntasUtil pergunta14 = new PerguntasUtil();
+		return pergunta14.esqueletoPerguntas(&quot;Senti que a vida não tinha sentido *\r\n&quot; + &quot; &quot;,
+				&quot; 1- Não se aplicou de maneira alguma \n &quot; + &quot;2- Aplicou-se em algum grau, ou por pouco de tempo \n &quot;
+						+ &quot;3- Aplicou-se em um grau considerável, ou por uma boa parte do tempo \n 4- Aplicou-se muito, ou na maioria do tempo&quot;);
+	</body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_7ZeqEOv0EeyFi-7spREWLw" name="questao8" method="_7fVacOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7ZlXwOv0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_7ZnM8Ov0EeyFi-7spREWLw" name="questao9" method="_7fdWQOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7ZobEOv0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_7ZpCIOv0EeyFi-7spREWLw" name="questao10" method="_7fdWQuv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7ZppMOv0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_7ZqQQOv0EeyFi-7spREWLw" name="questao11" method="_7fd9UOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7Zq3UOv0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_7ZsFcOv0EeyFi-7spREWLw" name="questao12" method="_7fekYOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7ZssgOv0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_7Zt6oOv0EeyFi-7spREWLw" name="questao13" method="_7ffLcOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7ZvIwOv0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_7Zvv0Ov0EeyFi-7spREWLw" name="questao14" method="_7ffygOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7ZwW4Ov0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_7ZxlAOv0EeyFi-7spREWLw" name="PerguntasEstresse">
+                  <ownedAttribute xmi:id="_7fADQOv0EeyFi-7spREWLw" name="leia" visibility="package" type="_7ehiIOv0EeyFi-7spREWLw" association="_7fz7kOv0EeyFi-7spREWLw">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_7fBRYOv0EeyFi-7spREWLw" value="new Scanner(System.in)"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7fhAoOv0EeyFi-7spREWLw" name="questao15" specification="_7Z12cOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7fhAoev0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>PerguntasUtil pergunta15 = new PerguntasUtil();
+		return pergunta15.esqueletoPerguntas(&quot;Achei difícil me acalmar &quot;, &quot; 1- Não se aplicou de maneira alguma \n &quot;
+				+ &quot;2- Aplicou-se em algum grau, ou por pouco de tempo \n &quot;
+				+ &quot;3- Aplicou-se em um grau considerável, ou por uma boa parte do tempo \n 4- Aplicou-se muito, ou na maioria do tempo&quot;);
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7fiOwOv0EeyFi-7spREWLw" name="questao16" specification="_7Z3roOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7fiOwev0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>PerguntasUtil pergunta16 = new PerguntasUtil();
+	return pergunta16.esqueletoPerguntas(&quot;Tive a tend�ncia de reagir de forma exagerada �s situações &quot;, &quot; 1- Não se aplicou de maneira alguma \n &quot;
+				+ &quot;2- Aplicou-se em algum grau, ou por pouco de tempo \n &quot;
+				+ &quot;3- Aplicou-se em um grau consider�vel, ou por uma boa parte do tempo \n 4- Aplicou-se muito, ou na maioria do tempo&quot;);
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7fi10Ov0EeyFi-7spREWLw" name="questao17" specification="_7Z5g0Ov0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7fi10ev0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>PerguntasUtil pergunta17 = new PerguntasUtil();
+	return pergunta17.esqueletoPerguntas(&quot;Senti que estava sempre nervoso &quot;, &quot; 1- Não se aplicou de maneira alguma \n &quot;
+				+ &quot;2- Aplicou-se em algum grau, ou por pouco de tempo \n &quot;
+				+ &quot;3- Aplicou-se em um grau considerável, ou por uma boa parte do tempo \n 4- Aplicou-se muito, ou na maioria do tempo&quot;);
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7fjc4Ov0EeyFi-7spREWLw" name="questao18" specification="_7Z6u8Ov0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7fjc4ev0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>PerguntasUtil pergunta18 = new PerguntasUtil();
+	return pergunta18.esqueletoPerguntas(&quot;Senti-me agitado &quot;, &quot; 1- N�o se aplicou de maneira alguma \n &quot;
+				+ &quot;2- Aplicou-se em algum grau, ou por pouco de tempo \n &quot;
+				+ &quot;3- Aplicou-se em um grau considerável, ou por uma boa parte do tempo \n 4- Aplicou-se muito, ou na maioria do tempo&quot;);
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7fkD8Ov0EeyFi-7spREWLw" name="questao19" specification="_7Z8kIOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7fkD8ev0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>PerguntasUtil pergunta19 = new PerguntasUtil();
+		return pergunta19.esqueletoPerguntas(&quot;Achei difícil relaxar &quot;, &quot; 1- N�o se aplicou de maneira alguma \n &quot;
+					+ &quot;2- Aplicou-se em algum grau, ou por pouco de tempo \n &quot;
+					+ &quot;3- Aplicou-se em um grau considerável, ou por uma boa parte do tempo \n 4- Aplicou-se muito, ou na maioria do tempo&quot;);
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7fkrAOv0EeyFi-7spREWLw" name="questao20" specification="_7Z-ZUOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7fkrAev0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>PerguntasUtil pergunta20 = new PerguntasUtil();
+		return pergunta20.esqueletoPerguntas(&quot;Fui intolerante com as coisas que me impediam de continuar o que eu estava fazendo &quot;, &quot; 1- Não se aplicou de maneira alguma \n &quot;
+					+ &quot;2- Aplicou-se em algum grau, ou por pouco de tempo \n &quot;
+					+ &quot;3- Aplicou-se em um grau considerável, ou por uma boa parte do tempo \n 4- Aplicou-se muito, ou na maioria do tempo&quot;);
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7flSEOv0EeyFi-7spREWLw" name="questao21" specification="_7Z_ncOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7flSEev0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>PerguntasUtil pergunta21 = new PerguntasUtil();
+		return pergunta21.esqueletoPerguntas(&quot;Senti que estava um pouco emotivo/sensível demais &quot;, &quot; 1- Não se aplicou de maneira alguma \n &quot;
+					+ &quot;2- Aplicou-se em algum grau, ou por pouco de tempo \n &quot;
+					+ &quot;3- Aplicou-se em um grau considerável, ou por uma boa parte do tempo \n 4- Aplicou-se muito, ou na maioria do tempo&quot;);
+	</body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_7Z12cOv0EeyFi-7spREWLw" name="questao15" method="_7fhAoOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7Z3EkOv0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_7Z3roOv0EeyFi-7spREWLw" name="questao16" method="_7fiOwOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7Z4SsOv0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_7Z5g0Ov0EeyFi-7spREWLw" name="questao17" method="_7fi10Ov0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7Z6H4Ov0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_7Z6u8Ov0EeyFi-7spREWLw" name="questao18" method="_7fjc4Ov0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7Z7WAOv0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_7Z8kIOv0EeyFi-7spREWLw" name="questao19" method="_7fkD8Ov0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7Z9LMOv0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_7Z-ZUOv0EeyFi-7spREWLw" name="questao20" method="_7fkrAOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7Z_AYOv0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_7Z_ncOv0EeyFi-7spREWLw" name="questao21" method="_7flSEOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7aA1kOv0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_7aEf8Ov0EeyFi-7spREWLw" name="PerguntasUtil">
+                  <ownedAttribute xmi:id="_7fEUsOv0EeyFi-7spREWLw" name="leia" visibility="package" type="_7ehiIOv0EeyFi-7spREWLw" association="_7f2X0ev0EeyFi-7spREWLw">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_7fEUsev0EeyFi-7spREWLw" value="new Scanner(System.in)"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7fl5IOv0EeyFi-7spREWLw" name="esqueletoPerguntas" specification="_7aHjQOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7fl5Iev0EeyFi-7spREWLw" name="pergunta">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_7fl5Iuv0EeyFi-7spREWLw" name="opcoes">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_7fl5I-v0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>int opcao = 0;
+		while (opcao &lt; 1 || opcao > 4) {
+			System.out.println(pergunta);
+			System.out.println(opcoes);
+			opcao = leia.nextInt();
+			
+			
+
+			switch (opcao) {
+			case 1:
+
+				opcao = 1;
+				break;
+
+			case 2:
+				opcao = 2;
+				break;
+
+			case 3:
+				opcao = 3;
+				break;
+
+			case 4:
+				opcao = 4;
+				break;
+
+			default:
+				System.out.println(&quot;Informe uma opção válida&quot;);
+				opcao = 0;
+				continue;
+			}
+
+		}
+
+		return opcao;
+	</body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_7aHjQOv0EeyFi-7spREWLw" name="esqueletoPerguntas" method="_7fl5IOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7aHjQev0EeyFi-7spREWLw" name="pergunta">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_7aIKUOv0EeyFi-7spREWLw" name="opcoes">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_7aIxYOv0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_7aTwgOv0EeyFi-7spREWLw" name="PerguntasAnsiedade">
+                  <ownedAttribute xmi:id="_7fGw8Ov0EeyFi-7spREWLw" name="leia" visibility="package" type="_7ehiIOv0EeyFi-7spREWLw" association="_7f6pQev0EeyFi-7spREWLw">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_7fHYAOv0EeyFi-7spREWLw" value="new Scanner(System.in)"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7fo8cOv0EeyFi-7spREWLw" name="questao1" specification="_7aVlsOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7fo8cev0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>PerguntasUtil pergunta1 = new PerguntasUtil();
+		return pergunta1.esqueletoPerguntas(&quot;Senti minha boca seca: &quot;, &quot; 1- Não se aplicou de maneira alguma \n &quot;
+				+ &quot;2- Aplicou-se em algum grau, ou por pouco de tempo \n &quot;
+				+ &quot;3- Aplicou-se em um grau considerável, ou por uma boa parte do tempo \n 4- Aplicou-se muito, ou na maioria do tempo&quot;);
+		
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7fpjgOv0EeyFi-7spREWLw" name="questao2" specification="_7aXa4Ov0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7fpjgev0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>PerguntasUtil pergunta2 = new PerguntasUtil();
+		return pergunta2.esqueletoPerguntas(&quot;Tive dificuldade em respirar em alguns momentos (ex. respiração ofegante, falta de ar, sem ter feito nenhum esforço físico)&quot;, &quot; 1- Não se aplicou de maneira alguma \n &quot;
+				+ &quot;2- Aplicou-se em algum grau, ou por pouco de tempo \n &quot;
+				+ &quot;3- Aplicou-se em um grau considerável, ou por uma boa parte do tempo \n 4- Aplicou-se muito, ou na maioria do tempo&quot;);
+		
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7fqKkOv0EeyFi-7spREWLw" name="questao3" specification="_7aZQEOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7fqKkev0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>PerguntasUtil pergunta3 = new PerguntasUtil();
+		return pergunta3.esqueletoPerguntas(&quot;Senti tremores (ex. nas mãos)&quot;, &quot; 1- Não se aplicou de maneira alguma \n &quot;
+				+ &quot;2- Aplicou-se em algum grau, ou por pouco de tempo \n &quot;
+				+ &quot;3- Aplicou-se em um grau considerável, ou por uma boa parte do tempo \n 4- Aplicou-se muito, ou na maioria do tempo&quot;);
+		
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7fqxoOv0EeyFi-7spREWLw" name="questao4" specification="_7aZ3IOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7fqxoev0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>PerguntasUtil pergunta4 = new PerguntasUtil();
+		return pergunta4.esqueletoPerguntas(&quot;Preocupei-me com situações em que eu pudesse entrar em pânico e parecesse ridículo(a)&quot;, &quot; 1- Não se aplicou de maneira alguma \n &quot;
+				+ &quot;2- Aplicou-se em algum grau, ou por pouco de tempo \n &quot;
+				+ &quot;3- Aplicou-se em um grau considerável, ou por uma boa parte do tempo \n 4- Aplicou-se muito, ou na maioria do tempo&quot;);
+		
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7frYsOv0EeyFi-7spREWLw" name="questao5" specification="_7absUOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7frYsev0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>PerguntasUtil pergunta5 = new PerguntasUtil();
+		return pergunta5.esqueletoPerguntas(&quot;Senti que ia entrar em pânico&quot;, &quot; 1- Não se aplicou de maneira alguma \n &quot;
+				+ &quot;2- Aplicou-se em algum grau, ou por pouco de tempo \n &quot;
+				+ &quot;3- Aplicou-se em um grau considerável, ou por uma boa parte do tempo \n 4- Aplicou-se muito, ou na maioria do tempo&quot;);
+		
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7fr_wOv0EeyFi-7spREWLw" name="questao6" specification="_7ac6cOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7fr_wev0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>PerguntasUtil pergunta6 = new PerguntasUtil();
+		return pergunta6.esqueletoPerguntas(&quot;Sabia que meu coração estava alterado mesmo não tendo feito nenhum esforço físico (ex. aumento da frequência cardíaca, disritmia cardíaca)&quot;, &quot; 1- Não se aplicou de maneira alguma \n &quot;
+				+ &quot;2- Aplicou-se em algum grau, ou por pouco de tempo \n &quot;
+				+ &quot;3- Aplicou-se em um grau considerável, ou por uma boa parte do tempo \n 4- Aplicou-se muito, ou na maioria do tempo&quot;);
+		
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7fsm0Ov0EeyFi-7spREWLw" name="questao7" specification="_7aevoOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7fsm0ev0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>PerguntasUtil pergunta7 = new PerguntasUtil();
+		return pergunta7.esqueletoPerguntas(&quot;Senti medo sem motivo&quot;, &quot; 1- Não se aplicou de maneira alguma \n &quot;
+				+ &quot;2- Aplicou-se em algum grau, ou por pouco de tempo \n &quot;
+				+ &quot;3- Aplicou-se em um grau considerável, ou por uma boa parte do tempo \n 4- Aplicou-se muito, ou na maioria do tempo&quot;);
+		
+	</body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_7aVlsOv0EeyFi-7spREWLw" name="questao1" method="_7fo8cOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7aWz0Ov0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_7aXa4Ov0EeyFi-7spREWLw" name="questao2" method="_7fpjgOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7aYB8Ov0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_7aZQEOv0EeyFi-7spREWLw" name="questao3" method="_7fqKkOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7aZQEev0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_7aZ3IOv0EeyFi-7spREWLw" name="questao4" method="_7fqxoOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7aaeMOv0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_7absUOv0EeyFi-7spREWLw" name="questao5" method="_7frYsOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7acTYOv0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_7ac6cOv0EeyFi-7spREWLw" name="questao6" method="_7fr_wOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7aeIkOv0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_7aevoOv0EeyFi-7spREWLw" name="questao7" method="_7fsm0Ov0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7afWsOv0EeyFi-7spREWLw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_7fz7kOv0EeyFi-7spREWLw" name="" memberEnd="_7fz7kev0EeyFi-7spREWLw _7fADQOv0EeyFi-7spREWLw">
+                  <ownedEnd xmi:id="_7fz7kev0EeyFi-7spREWLw" name="" type="_7ZxlAOv0EeyFi-7spREWLw" association="_7fz7kOv0EeyFi-7spREWLw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_7f2X0ev0EeyFi-7spREWLw" name="" memberEnd="_7f2-4Ov0EeyFi-7spREWLw _7fEUsOv0EeyFi-7spREWLw">
+                  <ownedEnd xmi:id="_7f2-4Ov0EeyFi-7spREWLw" name="" type="_7aEf8Ov0EeyFi-7spREWLw" association="_7f2X0ev0EeyFi-7spREWLw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_7f6pQev0EeyFi-7spREWLw" name="" memberEnd="_7f6pQuv0EeyFi-7spREWLw _7fGw8Ov0EeyFi-7spREWLw">
+                  <ownedEnd xmi:id="_7f6pQuv0EeyFi-7spREWLw" name="" type="_7aTwgOv0EeyFi-7spREWLw" association="_7f6pQev0EeyFi-7spREWLw"/>
+                </packagedElement>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_7YkrIOv0EeyFi-7spREWLw" name="respostas">
+                <packagedElement xmi:type="uml:Class" xmi:id="_7ajoIOv0EeyFi-7spREWLw" name="Resultados">
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7ftN4Ov0EeyFi-7spREWLw" name="resultadoEstresse" specification="_7anSgOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7ftN4ev0EeyFi-7spREWLw" name="somaEstresse">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>if (somaEstresse >= 1 &amp;&amp; somaEstresse &lt;= 9) {
+			System.out.println(&quot;Normal\r\n&quot;
+					+ &quot;	Seu nível de estresse está baixo. Face aos fatores estressantes do cotidiano, você se adapta bem.&quot;);
+		} else if (somaEstresse > 9 &amp;&amp; somaEstresse &lt;= 19) {
+			System.out.println(&quot;Leve\r\n&quot;
+					+ &quot;Seu nível de estresse está ligeiramente elevado. Entretanto, você não se encontra em níveis que colocam em risco sua saúde.&quot;);
+		} else {
+			System.out.println(&quot;Grave\r\n&quot;
+					+ &quot;Os resultados demonstram um nível elevado de estresse. Você deve estar se sentindo exaurido pelos fatores estressantes do cotidiano. A tensão emocional produzida pelo acúmulo de fatores estressantes, o colocam sob risco de apresentar sintomas em um ou vários campos: relacional, intelectual, físico ou psíquico.&quot;);
+		}
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7ft08Ov0EeyFi-7spREWLw" name="resultadoAnsiedade" specification="_7apHsOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7ft08ev0EeyFi-7spREWLw" name="somaAnsiedade">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>if (somaAnsiedade >= 1 &amp;&amp; somaAnsiedade &lt;= 7) {
+			System.out.println(&quot;Normal\r\n&quot;
+					+ &quot;Sua pontuação sobre a dimensão de ansiedade demonstra que você não está ansioso(a).&quot;);
+		} else if (somaAnsiedade > 7 &amp;&amp; somaAnsiedade &lt;= 14) {
+			System.out.println(&quot;Leve\r\n&quot;
+					+ &quot;Sua pontuação sobre a dimensão ansiosa não está elevada, entretanto, esteja atento à essa dimensão, fale com seu médico a respeito.&quot;);
+		} else if (somaAnsiedade > 14 &amp;&amp; somaAnsiedade &lt;= 21) {
+			System.out.println(&quot;Grave\r\n&quot;
+					+ &quot;Sua pontuação na escala de ansiedade está elevada. É importante falar com o seu médico a fim de traçar uma conduta.&quot;);
+		} else {
+			System.out.println(&quot;Severa\r\n&quot;
+					+ &quot;Sua pontuação na escala de ansiedade está elevada. É importante falar com o seu médico a fim de traçar uma conduta.&quot;);
+		}
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7fucAOv0EeyFi-7spREWLw" name="resultadoDepressao" specification="_7aqV0Ov0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7fucAev0EeyFi-7spREWLw" name="somaDepressao">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>if (somaDepressao >= 1 &amp;&amp; somaDepressao &lt;= 7) {
+			System.out.println(&quot;Nível Normal\r\n&quot;
+					+ &quot;	*Sua pontuação sobre a dimensão de depressão demonstra que você não está depressivo(a).&quot;);
+		} else if (somaDepressao > 7 &amp;&amp; somaDepressao &lt;= 14) {
+			System.out.println(&quot;Moderado\r\n&quot;
+					+ &quot;Sua pontuação na escala de depressão está elevada. É importante falar com o seu médico a fim de traçar uma conduta.&quot;);
+		} else if (somaDepressao > 14 &amp;&amp; somaDepressao &lt;= 21) {
+			System.out.println(&quot;Grave\r\n&quot;
+					+ &quot;Sua pontuação na escala de depressão está elevada. É importante falar com o seu médico a fim de traçar uma conduta.&quot;);
+		} else {
+			System.out.println(&quot;Severa\r\n&quot;
+					+ &quot;Sua pontuação na escala de depressão está elevada. É importante falar com o seu médico a fim de traçar uma conduta.&quot;);
+		}
+	</body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_7anSgOv0EeyFi-7spREWLw" name="resultadoEstresse" method="_7ftN4Ov0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7anSgev0EeyFi-7spREWLw" name="somaEstresse">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_7apHsOv0EeyFi-7spREWLw" name="resultadoAnsiedade" method="_7ft08Ov0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7apHsev0EeyFi-7spREWLw" name="somaAnsiedade">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_7aqV0Ov0EeyFi-7spREWLw" name="resultadoDepressao" method="_7fucAOv0EeyFi-7spREWLw">
+                    <ownedParameter xmi:id="_7aq84Ov0EeyFi-7spREWLw" name="somaDepressao">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_hh1ScOv7EeyFi-7spREWLw" name="TestaResultados"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_BxAXYOv2EeyFi-7spREWLw" name="NewClass1"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_7YGxEOv0EeyFi-7spREWLw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_7YGxEev0EeyFi-7spREWLw" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_7ehiIOv0EeyFi-7spREWLw" name="Scanner"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_7HBoIOv0EeyFi-7spREWLw">
+      <eAnnotations xmi:id="_7HEEYOv0EeyFi-7spREWLw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_7HI84Ov0EeyFi-7spREWLw" base_Package="_5wPbYOv0EeyFi-7spREWLw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Reference xmi:id="_7elMgOv0EeyFi-7spREWLw" base_Element="_7ehiIOv0EeyFi-7spREWLw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_7fDGkOv0EeyFi-7spREWLw" base_Element="_7fADQOv0EeyFi-7spREWLw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_7fGJ4Ov0EeyFi-7spREWLw" base_Element="_7fEUsOv0EeyFi-7spREWLw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_7fImIOv0EeyFi-7spREWLw" base_Element="_7fGw8Ov0EeyFi-7spREWLw"/>
+  <UMLLabProfile:Reference xmi:id="_7f2X0Ov0EeyFi-7spREWLw" base_Element="_7fz7kOv0EeyFi-7spREWLw"/>
+  <UMLLabProfile:Reference xmi:id="_7f6pQOv0EeyFi-7spREWLw" base_Element="_7f2X0ev0EeyFi-7spREWLw"/>
+  <UMLLabProfile:Reference xmi:id="_7f9skOv0EeyFi-7spREWLw" base_Element="_7f6pQev0EeyFi-7spREWLw"/>
+</xmi:XMI>
