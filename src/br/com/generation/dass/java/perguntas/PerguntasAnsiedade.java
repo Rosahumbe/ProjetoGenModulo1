@@ -4,10 +4,7 @@ import java.util.Scanner;
 
 public class PerguntasAnsiedade {
 
-	/*
-	 * Perguntas sobre Ansiedade:
-	 */
-
+	
 	Scanner leia = new Scanner(System.in);
 
 	

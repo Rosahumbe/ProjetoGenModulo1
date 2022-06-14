@@ -19,6 +19,10 @@ public class ProjetoGenJavaDassMain {
 		
 	Interface telaInicial = new Interface();
 	telaInicial.saudacao();
+	System.out.println();
+	System.out.println("  Por favor, leia cada afirmativa e marque a resposta que indique \n  quanto ela se aplicou a você durante a última semana.");
+	System.out.println();
+	System.out.println();
 	
 	PerguntasAnsiedade perguntasAnsiedade = new PerguntasAnsiedade();
 	PerguntasEstresse perguntasEstresse = new PerguntasEstresse();
