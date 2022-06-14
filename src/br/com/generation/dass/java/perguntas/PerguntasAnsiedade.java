@@ -1,13 +1,7 @@
 package br.com.generation.dass.java.perguntas;
 
-import java.util.Scanner;
-
 public class PerguntasAnsiedade {
 
-	
-	Scanner leia = new Scanner(System.in);
-
-	
 
 	public int questao1() {
 		PerguntasUtil pergunta1 = new PerguntasUtil();
