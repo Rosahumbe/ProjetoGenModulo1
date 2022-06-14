@@ -13,6 +13,10 @@ public class ProjetoGenJavaDassMain {
 	
 	ContabilizaResultados contabilizaResultas = new ContabilizaResultados();
 	contabilizaResultas.somas();
+	
+	Interface telaClinica = new Interface();
+	
+	telaClinica.indicarClinica();
 		}
-
+	
 }
