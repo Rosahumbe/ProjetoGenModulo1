@@ -13,7 +13,7 @@ public class Interface {
 		System.out.println("|   estresse e foi baseado no no DASS21 (Depression, Anxiety and     |");
 		System.out.println("|   and Stress Scale)                                                |");
 		System.out.println("|                                                                    |");
-		System.out.println("|                    ::::::::: ATENÇÃO :::::::::                     |"); 
+		System.out.println("|                ::::::::: A T E N Ç Ã O :::::::::                   |"); 
 		System.out.println("|                                                                    |");
 		System.out.println("|   O resultado da avaliação não indica um diagnóstico conclusivo.   |");
 		System.out.println("|   Para determinar qualquer diagnóstico potencial discuta seu       |");
@@ -27,14 +27,27 @@ public class Interface {
 	}
 	
 	public void indicarClinica() {
-		System.out.println(" <----- Indicação de Clinica Especializada -----> \n");
-		
-		System.out.println("Por motivos de saude, indicamos que  procure uma clinica especializada de sua confiança.\n"
-				+ "Indicamos a Clinica Recontruindo a mente, onde você poderá ser diagnosticado por um especialista.\n"
-				+ "Entre em contato por telefone (27) 99887-1816 e (27) 99842-1351 \nE por email através de (reconstruindoamente@gmail.com)");
-		System.out.println("Ligue para o Centro de Valorização a Vida - 188");
-		System.out.println("Você pode conversar com um voluntário ligando  de todo o território nacional, 24 horas todos os dias de forma gratuita.");
-		System.out.println("Esperamos que fique bem e cuide-se!!!!");
+
+		System.out.println("|=============================================================================================|");
+		System.out.println("|                    <----- Indicação de Clinica Especializada ----->                         |");
+		System.out.println("|                                                                                             |");
+		System.out.println("| É importante discutir os resultados deste teste com um médico especialista. Indicamos a     |");
+		System.out.println("| clínica Reconstruindo a Mente onde você poderá ser atendido por um profissional da área     |");
+		System.out.println("| Entre em contato pelo telefone (27)99887-1816 ou (27)99842-1351 ou por email através        |");
+		System.out.println("|  do reconstruindoamente@gmail.com                                                           |");
+		System.out.println("|                                                                                             |");
+		System.out.println("|   Precisa conversar? Você pode ligar  para o Centro de Valorização da Vida, discando 188    |");
+		System.out.println("|   A ligação é gratuita e o atendimento funciona 24h todos os dias.                          |");
+		System.out.println("|                                                                                             |");
+		System.out.println("|                                                                                             |");
+		System.out.println("|                                                                                             |");
+		System.out.println("|                      Esperamos que fique bem e cuide-se! ♥                                  |");
+		System.out.println("|                                                                                             |");
+		System.out.println("|=============================================================================================");
 	}
 
+	
 }
+	
+	
+

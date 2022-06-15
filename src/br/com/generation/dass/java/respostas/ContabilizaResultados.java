@@ -25,7 +25,6 @@ public class ContabilizaResultados {
 		somaAnsiedade += perguntasAnsiedade.questao7();
 		
 		
-		
 		somaDepressao += perguntasDepressao.questao8();
 		somaDepressao += perguntasDepressao.questao9();
 		somaDepressao += perguntasDepressao.questao10();
@@ -33,7 +32,6 @@ public class ContabilizaResultados {
 		somaDepressao += perguntasDepressao.questao12();
 		somaDepressao += perguntasDepressao.questao13();
 		somaDepressao += perguntasDepressao.questao14(); 
-		
 		
 		
 		somaEstresse += perguntasEstresse.questao15();
@@ -47,10 +45,8 @@ public class ContabilizaResultados {
 		Resultados resultAnsiedade = new Resultados();
 		resultAnsiedade.resultadoAnsiedade(somaAnsiedade);
 		
-		
 		Resultados resultEstresse = new Resultados();
 		resultEstresse.resultadoEstresse(somaEstresse);
-		
 		
 		Resultados resultadoDepressao = new Resultados();
 		resultadoDepressao.resultadoDepressao(somaDepressao);
